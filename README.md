@@ -30,8 +30,14 @@
 
 ## 开始界面
 ![屏幕截图 2024-11-28 182546](https://github.com/user-attachments/assets/b8ae64f1-0f07-4fb4-9511-63c5a375d2c7)
+
+
 可以点击“AI游玩”和“AI停止”让AI帮你玩游戏，也可以自主使用小键盘的上下左右和"W","S", "A", "D"键控制游戏的上下左右移动
-开始玩吧！
+
+
+## 开始玩吧！
+
+
 ![屏幕截图 2024-11-28 183457](https://github.com/user-attachments/assets/4d4b13eb-eb48-43e2-8fa4-e372defd1fc4)
 
 
