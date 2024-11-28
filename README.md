@@ -21,7 +21,7 @@
 ## 📝 使用方法
 
 
-1. **下载zip**：`在[git clone https://github.com/yourusername/2048-AI-Mastermind.git](https://github.com/ytjiang2333777/Using-AI-to-become-the-master-in-the-2048-game)页面里点击code下载zip文件
+1. **下载zip**：`在(https://github.com/ytjiang2333777/Using-AI-to-become-the-master-in-the-2048-game)页面里点击code下载zip文件
 `
 2. **运行程序**：`点“play”文件开始游戏
 `
