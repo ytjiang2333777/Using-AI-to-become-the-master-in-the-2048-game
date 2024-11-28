@@ -25,16 +25,38 @@ class Game2048 {
     }
 
     handleKeyPress(event) {
-        if (!['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+        console.log('按键被按下:', event.key);
+        console.log('事件对象:', event);
+
         event.preventDefault();
         
         const oldGrid = JSON.stringify(this.grid);
         
         switch(event.key) {
-            case 'ArrowUp': this.moveUp(); break;
-            case 'ArrowDown': this.moveDown(); break;
-            case 'ArrowLeft': this.moveLeft(); break;
-            case 'ArrowRight': this.moveRight(); break;
+            case 'ArrowUp':
+            case 'w':
+            case 'W':
+                console.log('向上移动被触发');
+                this.moveUp();
+                break;
+            case 'ArrowDown': 
+            case 's':
+            case 'S':
+                console.log('向下移动被触发');
+                this.moveDown();
+                break;
+            case 'ArrowLeft':
+            case 'a':
+            case 'A':
+                console.log('向左移动被触发');
+                this.moveLeft();
+                break;
+            case 'ArrowRight':
+            case 'd':
+            case 'D':
+                console.log('向右移动被触发');
+                this.moveRight();
+                break;
         }
 
         if (oldGrid !== JSON.stringify(this.grid)) {
